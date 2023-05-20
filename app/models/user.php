@@ -12,6 +12,10 @@ class User extends baseModel{
 function __construct(){
     parent::__construct();
 }
+
+public function test(){
+    return 0;
+}
 public  function setname($name){
      $this->name=$name;
 }
